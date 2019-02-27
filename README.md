@@ -29,3 +29,13 @@ git commit -am "Initial Commit"
 
 git rm test Makefile *.o *.pro.user
 ...
+
+
+then commit
+
+...
+
+git commit -am "removed unwanted files"
+
+
+5. The .gitigonore
