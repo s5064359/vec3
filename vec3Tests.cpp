@@ -11,3 +11,12 @@ TEST(vec3, testDefaultConstructor)
     ASSERT_FLOAT_EQ(a.m_y,0.0f);
     ASSERT_FLOAT_EQ(a.m_z,0.0f);
 }
+
+TEST(vec3,userDefinedConstructor)
+{
+    vec3 a(1.0f,2.0f,3.0f);
+    ASSERT_FLOAT_EQ(a.m_x,1.0f);
+    ASSERT_FLOAT_EQ(a.m_y,2.0f);
+    ASSERT_FLOAT_EQ(a.m_z,3.0f);
+}
+
