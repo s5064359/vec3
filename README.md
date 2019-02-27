@@ -21,3 +21,11 @@ git add .
 ...
 
 git commit -am "Initial Commit"
+
+
+4. Remove unwanted files from version control
+
+...
+
+git rm test Makefile *.o *.pro.user
+...
